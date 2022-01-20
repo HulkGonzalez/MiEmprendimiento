@@ -25,3 +25,14 @@ $charcoel: #2e1503;
 $tangerine: #ffaf6d;
 $orange: #ffa500;
 
+//diagramación
+
+$viewportWidth:100%;
+
+// Breakpoints
+$breakpoints:(
+    'small' :(min-width: 320px),
+    'medium':(min-width: 768px),
+    'large' :(min-width: 992px),
+    'huge'  :(min-width: 1200px),
+);

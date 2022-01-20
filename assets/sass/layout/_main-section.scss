@@ -1,31 +1,27 @@
 .main {
     padding: 0% 1%;
     margin: 0 1rem;
-    
 }
 
-.col-md-6 {
-}
-.col-sm-12 {
-}
+//Curso 
 .courses {
     border: black;
     margin: 0 1rem 0 1rem;
     border: 1px solid $black;
-
-
+//HTML CSS
   &__htmlcss {
     padding: 1% 1%;
     border: 1px solid $black;
     margin: 3% 1rem 0% 1rem;
-
   }
+//Sass
   &__sass {
     padding: 1% 1%;
     border: 1px solid $black;
     margin: 1% 1rem 0% 1rem;
   }
 }
+//Interaccion
 .fa-comments {
     padding: 1% 2%;
 }
@@ -38,15 +34,12 @@
 .fa-thumbs-up {
     padding: 1% 2%;
 }
-.far {
-}
-.fas {
-}
 .icon {
     padding: 1% 2%;
   &__text {
   }
 }
+//imagenes 
 .image01 {
     width: 100%;
     height: 20rem;
@@ -55,13 +48,8 @@
     width: 100%;
     height: 20rem;
 }
-
-.main {
-    padding: 0% 1%;
-    margin: 0 1rem;
     
-}
-
+//Otros cursos
 .image03 {
     width: 10rem;
     border-radius: 50rem;
@@ -108,9 +96,9 @@
 .other__courses {
     padding: 0% 0% 0% 3%
 }
-
+//Animacion
 .animation {
     text-align: center;
-    padding: 8% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
 }
 
