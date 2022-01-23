@@ -16,15 +16,22 @@
     <title>Mi Emprendimiento</title>
 </head>
 
-<!--NavBar-->
+
 <body>
-    <nav class="nav">
-        <img class="nav__logo" src="assets/img/logo.svg" alt="logo">
-        <ul class="nav__menu">
-            <li class="nav__links"><a>Acerca de</a></li>
-            <li class="nav__links"><a>Cursos</a></li>
-            <li class="nav__links" ><a>Precios</a></li>
-        </ul>
+    <!--NavBar-->
+    <nav class="navbar">
+        <a href="#" class="navbar__logo"><img class="logo__img" src="assets/img/logo.svg" alt=""></a>
+        <div class="navbar__menu">
+            <div class="navbar__container" tabindex="0">
+                <ul class="navbar__list" id="navbarmenu">
+                    <li class="navbar__item"><a class="navbar__link" href="#">Acerca de</a></li>
+                    <li class="navbar__item"><a class="navbar__link" href="#">Cursos</a></li>
+                    <li class="navbar__item"><a class="navbar__link" ref="#">Precios</a></li>
+                </ul>
+                <a id="hamburguesa" href="#" title="menu" class="navbar__hamburguesa"><i class="fa fa-2x fa-bars"></i></a>
+            </div>
+            <a href="#" title="menu cerrar" class="navbar__hamburguesacerrar"><i class="fa fa-2x fa-window-close"></i></a>
+        </div>
     </nav>
 <!--Header Imagen Central-->
     <header class="image">
@@ -32,9 +39,9 @@
     </header>
 <!--Main Cursos-->
     <main class="main row">
-        <section class="courses col-sm-12 col-md-6">
+        <section class="courses col-xs-12 col-sm-12 col-md-6">
             <!--Curso HTML CSS-->
-            <div class="courses__htmlcss col-sm-12 col-md-6">
+            <div class="courses__htmlcss col-xs-12 col-sm-12 col-md-6">
                 <img class="image01" src="assets/img/html-y-cssb-.jpg" alt="">
                 <h2>HTML Y CSS para principiantes</h2>
                 <p>HTML y CSS son dos herramientas importantes para dar inicio en el mundo del desarrollo web. Por lo tanto,en este
@@ -49,7 +56,7 @@
                 </div>
             </div>
             <!--Curso Sass-->
-            <div class="courses__sass col-sm-12 col-md-6">
+            <div class="courses__sass col-xs-12 col-sm-12 col-md-6">
                 <img class="image02" src="assets/img/sass.png" alt="">
                 <h2>Estilos con SASS</h2>
                 <p>SASS es una herramienta importante hoy en dia para todo desarrolador web, ya que permite crear estilos mas ordenados, eficientes y con menos lineas de codigo. Por ello, en este curso aprenderemos todo lo necesario para crear hojas de estilos desde la sintaxis de SCSS, implentando tecnicas propias de SASS.</p>
@@ -63,12 +70,12 @@
             </div>
         </section>
         <!--Otros Cursos-->
-        <section class="somos col-sm-12 col-md-6">
-            <div class="images col-sm-12 col-md-6">
+        <section class="somos col-xs-12 col-sm-12 col-md-6">
+            <div class="images col-xs-12 col-sm-12 col-md-6">
                 <img class="image03" src="assets/img/web-development.png" alt="">
             </div>
             <div class="">   
-                <h2 class="text01 col-sm-12 col-md-6">CURSOS 2020 LTDA</h2>
+                <h2 class="text01 col-xs-12 col-sm-12 col-md-6">CURSOS 2020 LTDA</h2>
                 <div class="rrss">
                     <a href="https://facebook.com" class="rrss0" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://twitter.com" class="rrss0" target="_blank"><i class="fab fa-twitter"></i></a>
@@ -91,7 +98,7 @@
                 </ul>
             </div>
             <!--Animacion-->
-            <div class="animation col-sm-12 col-md-6">
+            <div class="animation col-xs-12 col-sm-12 col-md-6">
                 <svg width="311" height="512" viewBox="0 0 511 512" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="Frame" clip-path="url(#clip0_4_30)">
                         <path id="capa01"
